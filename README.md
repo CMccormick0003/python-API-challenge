@@ -40,3 +40,6 @@ The hotel name and  country were added to the map and appear if you hover over e
 
 ![image](https://github.com/CMccormick0003/python-API-challenge/assets/120672518/3f1962db-e2af-4303-9895-b66c4b2b3d77)
 
+## Source
+Starter code for Python was provided by the Rutgers bootcamp.  Real-time data for weather and cities were obtained from the APIs.
+
