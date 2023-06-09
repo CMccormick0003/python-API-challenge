@@ -1,5 +1,8 @@
-# python-API-challenge
-weather data
+# Mapping Cities with Ideal Weather
+
+## Scope: Use APIs to identify cities with a close hotel where weather conditions meet prespecified parameters
+
+## Tools: Python, Pandas, APIs keys, scipy.stats, matplotlib
 
 ![image](https://github.com/CMccormick0003/python-API-challenge/assets/120672518/edfd55c3-7531-422b-a71a-50d83a7143ba)
 
@@ -25,4 +28,13 @@ weather data
 ![image](https://github.com/CMccormick0003/python-API-challenge/assets/120672518/0e454f32-57f2-40f9-ba77-1cd41c6b3c8a)
 
 ![image](https://github.com/CMccormick0003/python-API-challenge/assets/120672518/02346c48-2720-480a-9cfd-b66d69d0508a)
+
+## All Cities in the cities_data_df
+![image](https://github.com/CMccormick0003/python-API-challenge/assets/120672518/aa772f09-be96-42dc-a368-d041cd160e4e)
+
+This dataframe was refined to include only cities with ideal weather as temperature between 21 and 27 C, wind speed less than 4.5 and no clouds.
+For each, the Geoapify API was used to find the first hotel located within 10,000 metres of the city's coordinates (hotel_df).
+The hotel name and  country were added to the map and appear if you hover over each city in the map.¶
+
+![image](https://github.com/CMccormick0003/python-API-challenge/assets/120672518/3f1962db-e2af-4303-9895-b66c4b2b3d77)
 
